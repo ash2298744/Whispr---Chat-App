@@ -1,11 +1,11 @@
 import React from 'react'
-import Robot from '../assets/robot.gif';
+import Hello from '../assets/hello.gif';
 import styled from 'styled-components';
 
 const Welcome = ({currentUser}) => {
   return (
     <Container>
-        <img src={Robot} alt="robot" />
+        <img src={Hello} alt="robot" />
         <h1>Welcome, <span>{currentUser.username}!</span></h1>
         <h3>Tap Chat to start messaging</h3>
     </Container>
