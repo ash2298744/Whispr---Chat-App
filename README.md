@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+Register
+![register](https://github.com/ash2298744/Whispr-ChatApp/assets/98107310/eb4030cf-05a3-40a3-a80a-44aec3b0396a)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Login
+![login](https://github.com/ash2298744/Whispr-ChatApp/assets/98107310/8e8c0d1b-c605-49e4-8e3f-88f14baf104f)
+
+Home Page
+![home](https://github.com/ash2298744/Whispr-ChatApp/assets/98107310/9e910040-a40a-4c69-913d-8796f079bb5d)
+
+Chat Screen
+![chat](https://github.com/ash2298744/Whispr-ChatApp/assets/98107310/acb834d1-8c74-4221-b5e9-b7582e1ee9df)
+
+
+
+# Getting Started with Create React App
 
 ## Available Scripts
 
