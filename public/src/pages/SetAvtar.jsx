@@ -39,7 +39,6 @@ const SetAvtar = () => {
             const {data} = await axios.post(`${setAvtarRoute}/${user._id}`, {
                 image: avtars[selectedAvtar],
             });
-            console.log(data);
             if(data.isSet){
                 user.isAvatarImageSet = true;
                 user.avatarImage = data.image;

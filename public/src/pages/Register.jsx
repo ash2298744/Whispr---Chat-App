@@ -61,7 +61,7 @@ const Register = () => {
             toast.error("Username must be of atleast length 3", toastOptions);
             return false;
         }
-        else if(password.length < 8){
+        else if(password.length < 3){
             toast.error("Password must be of atleast length 3", toastOptions);
             return false;
         }

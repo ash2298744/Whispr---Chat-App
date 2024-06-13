@@ -6,7 +6,7 @@ const messageRoutes = require("./routes/messagesRoute")
 const socket = require("socket.io")
 
 const app = express();
-require("dotenv").config();
+require("dotenv").config(); 
 
 app.use(cors());
 app.use(express.json());
@@ -32,10 +32,9 @@ const io = socket(server,{
     }
 })
 
-global.onlineUsers = new Map();
+onlineUsers = new Map();
 
 io.on("connection",(socket)=>{
-    global.chatSocket = socket;
     socket.on("add-user",(userId)=>{
         onlineUsers.set(userId, socket.id)
     });
